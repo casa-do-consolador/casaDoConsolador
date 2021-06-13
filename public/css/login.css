@@ -1,0 +1,10 @@
+html { font-size: 22px; box-sizing: border-box; }
+body { padding: 1rem; }
+.grid-item {
+    max-width: 500px;
+    height: fit-content;
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1rem;
+    background-color: aquamarine;
+  }
