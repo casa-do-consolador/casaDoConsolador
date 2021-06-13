@@ -1,3 +1,3 @@
 module.exports.homeLista = (req,res) => {
-    res.render('home_lista')
+    res.render('./voluntarios/home_lista')
 }
