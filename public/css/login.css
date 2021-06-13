@@ -1,10 +1,38 @@
-html { font-size: 22px; box-sizing: border-box; }
-body { padding: 1rem; }
-.grid-item {
+html {  box-sizing: border-box; }
+body { 
+  padding: 1rem;
+  font-size: 14px;
+  
+}
+.grid-container {
     max-width: 500px;
     height: fit-content;
-    margin: 0 auto;
+    margin: 0 auto; 
     display: grid;
     grid-gap: 1rem;
-    background-color: aquamarine;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .grid-item .image{
+    margin: 0 auto;
+    margin-top: 15px;
+  
+    
+    
+  }
+  .text-login{
+    margin:30px;
+    font-weight: bold;
+ 
+
+  }
+  .field{
+    text-align: left;
+
+  }
+
+ .login-form{
+   margin-bottom: 20px;
+   
   }

@@ -13,19 +13,55 @@
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">      
-        <img src="img/logo cdc vert.jpg" alt="">
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        
-
+             <img src="img/logo cdc vert.jpg" alt="">
+             
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="true">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+             </a>
         </div>
+      
        
     </nav>
     <div class="grid-container">
-        <div class="grid-item">1</div>
+        <p> Controle de Entrega Casa do Consolador</p>
+    <div class="grid-item">
+        
+        <figure class="image is-96x96">
+            <img class="is-rounded" src="https://bulma.io/images/placeholders/128x128.png">
+        </figure>
+        <p class="text-login">Login</p>
+     </div>
+    
+        <div class="grid-item">
+            <form class="login-form" method="POST" action="/login/users">
+                <div class="field">
+                    <p class="control has-icons-left has-icons-right">
+                        <Label>Usuário:</Label>
+                      <input class="input" type="email" placeholder="Usuário">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-envelope"></i>
+                      </span>
+                      <span class="icon is-small is-right">
+                        <i class="fas fa-check"></i>
+                      </span>
+                    </p>
+                  </div>
+                  <div class="field">
+                    <p class="control has-icons-left">
+                        <Label>Senha:</Label>
+                      <input class="input" type="password" placeholder="Senha:">
+                      <span class="icon is-small is-left">
+                        <i class="fas fa-lock"></i>
+                      </span>
+                    </p>
+                  </div>
+                  <input class="button" type="submit" value="ENTRAR"/>
+            </form>
+
+
+        </div>
         
      
       </div>   
