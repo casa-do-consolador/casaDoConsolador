@@ -1,9 +1,8 @@
 const express = require('express');
 const router = express.Router();
+const {login} = require('../controllers/loginController')
 
 /* GET login page. */
-router.get('/', function(req, res, next) {
-  res.render('login');
-});
+router.get('/', login);
 
 module.exports = router;
