@@ -1,0 +1,18 @@
+/* Botão Detalhes - lista de atendimento */
+
+.lista__atendimento--botao{
+    background: var(--azul);
+    border: none;
+    border-radius: 3px;
+
+    color: var(--branco);
+    text-align: center;
+
+    align-self: flex-end;
+
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+
+    height: 20px;
+}
