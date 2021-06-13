@@ -1,0 +1,48 @@
+
+.acoes{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50%;
+}
+
+.acoes__visualizarListaAtendimentos{
+    color: var(--preto);
+    text-decoration: underline;
+
+    font-size: 14px;
+
+    margin-bottom: 20px;
+}
+
+.acoes__visualizarListaAtendimentos:visited{
+    color: var(--preto);
+}
+
+.lista__titulo{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--preto);
+
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.lista__atendimentos{
+    border: 1px solid var(--marrom);
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.lista__atendimento--nome{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--preto);
+
+    margin-left: 10px;
+}
