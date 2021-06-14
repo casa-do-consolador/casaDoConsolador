@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Botão Detalhes - lista de atendimento */
 
 .lista__atendimento--botao{
@@ -16,3 +17,23 @@
 
     height: 20px;
 }
+=======
+.dashboard {
+    width: 350px;
+    border: gray 1px solid;
+}
+.dash-atendimentos{
+    width: 350px;
+    height: 100px;
+    border-top: gray 1px solid;
+}
+
+.button{
+    background-color: gray;
+    color: honeydew;
+}
+.button:hover{
+    background-color: rgb(106, 185, 238);
+}
+
+>>>>>>> 0f2a8c47866280877facdc3d7c2172f594a36c1a
