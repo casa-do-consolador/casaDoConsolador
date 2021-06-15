@@ -9,9 +9,21 @@
     color: var(--preto);
     text-decoration: underline;
 
-    font-size: 14px;
+    font-size: 0.88rem;
 
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
+}
+
+.acoes__busca{
+    border: 0.06rem solid var(--cinza);
+}
+
+.acoes__busca--img{
+    height: 1.25rem;
+
+    position: relative;
+    left: 19.25rem;
+    bottom: 1.81rem;
 }
 
 .acoes__visualizarListaAtendimentos:visited{
@@ -20,29 +32,74 @@
 
 .lista__titulo{
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--preto);
 
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 0.94rem;
+    margin-bottom: 0.94rem;
 }
 
 .lista__atendimentos{
-    border: 1px solid var(--marrom);
-    border-radius: 5px;
+    border: 0.06rem solid var(--cinza);
+    border-radius: 0.31rem;
 
     display: flex;
     flex-direction: column;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 0.63rem;
+    padding-bottom: 0.63rem;
 }
 
 .lista__atendimento--nome{
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--preto);
 
-    margin-left: 10px;
+    margin-left: 0.63rem;
+}
+
+.paginacao{
+    display: flex;
+    justify-content: flex-end;
+    
+    padding-right: 0.12rem;
+
+    margin-top: 0.31rem;
+}
+
+.paginacao__numeroPagina{
+    border: 0.06rem solid var(--cinza);
+    border-radius: 0.18rem;
+
+    padding-left: 0.94rem;
+    padding-right: 0.94rem;
+    
+    margin-left: 0.31rem;
+
+    color: var(--preto);
+}
+
+.novoAtendimento{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 1.5rem;
+    margin-bottom: 0.94rem;
+
+    border: 0.06rem solid var(--cinza);
+    border-radius: 0.19rem;
+}
+
+.novoAtendimento__adicionar{
+    height: 1.25rem;
+
+    position: relative;
+    top: 0.31rem;
+}
+
+.novoAtendimento__texto{
+    color: var(--preto);
+
+    padding-bottom: 0.24rem;
 }

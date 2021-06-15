@@ -1,25 +1,11 @@
 /* Botão Detalhes - lista de atendimento */
 
-.lista__atendimento--botao{
-    background: var(--azul);
-    border: none;
-    border-radius: 3px;
 
-    color: var(--branco);
-    text-align: center;
-
-    align-self: flex-end;
-
-    position: relative;
-    bottom: 20px;
-    right: 20px;
-
-    height: 20px;
-}
 .dashboard {
     width: 350px;
     border: gray 1px solid;
 }
+
 .dash-atendimentos{
     width: 350px;
     height: 100px;
@@ -30,7 +16,26 @@
     background-color: gray;
     color: honeydew;
 }
+
 .button:hover{
     background-color: rgb(106, 185, 238);
 }
 
+/* rota deste botão: /lista_vol */
+.lista__atendimento--botao{
+    background: var(--baby_blue);
+    border: none;
+    border-radius: 3px;
+
+    color: var(--branco);
+    text-align: center;
+    font-size: 12px;
+
+    align-self: flex-end;
+
+    position: relative;
+    bottom: 20px;
+    right: 20px;
+
+    height: 40px;
+}
