@@ -2,7 +2,8 @@ const express = require('express');
 const {homeLista} = require('../controllers/voluntariosController')
 const router = express.Router();
 
-router.get('/lista_vol', homeLista)
+//lista voluntários (difere da lista do admin)
+router.get('/', homeLista);
 
 module.exports = router;
 

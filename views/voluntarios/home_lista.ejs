@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/base.css">
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="stylesheet" href="/css/buttons.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/home_lista.css">
+    <title>Casa do Consolador</title>
+</head>
+<body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">      
+            <img src="/img/logo_cdc_vert.jpg" class="navbar-brand" alt="Logo Casa do Consolador">
+            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+    </nav>
+    <main class="main-container">
+        <section class="acoes"><a href="#" class="acoes__visualizarListaAtendimentos">Visualizar atendimentos de hoje</a>
+            <input type="text" class="acoes__busca input" placeholder="Busque pelo nome">
+            <img class= "acoes__busca--img" src="/img/lupa.svg">
+        </section>
+
+        <section class="lista">
+            <h1 class="lista__titulo">Nomes Cadastrados</h1>
+            <form action="#" class="lista__atendimentos" method="GET">
+                <p class="lista__atendimento--nome">Maria Silva e Silva</p>
+                <button class="lista__atendimento--botao button is-info">Detalhes</button>
+
+                <p class="lista__atendimento--nome">Maria Silva e Silva</p>
+                <button class="lista__atendimento--botao button is-info">Detalhes</button>
+
+                <p class="lista__atendimento--nome">Maria Silva e Silva</p>
+                <button class="lista__atendimento--botao button is-info">Detalhes</button>
+
+                <p class="lista__atendimento--nome">Maria Silva e Silva</p>
+                <button class="lista__atendimento--botao button is-info">Detalhes</button>
+
+                <p class="lista__atendimento--nome">Maria Silva e Silva</p>
+                <button class="lista__atendimento--botao button is-info">Detalhes</button>
+
+                <p class="lista__atendimento--nome">Maria Silva e Silva</p>
+                <button class="lista__atendimento--botao button is-info">Detalhes</button>
+
+                <p class="lista__atendimento--nome">Maria Silva e Silva</p>
+                <button class="lista__atendimento--botao button is-info">Detalhes</button>
+
+                <p class="lista__atendimento--nome">Maria Silva e Silva</p>
+                <button class="lista__atendimento--botao button is-info">Detalhes</button>
+            </form>
+        </section>
+        <div class="paginacao">
+            <a href="#" class="paginacao__numeroPagina">1</a>
+            <a href="#" class="paginacao__numeroPagina">2</a>
+            <a href="#" class="paginacao__numeroPagina">3</a>
+            <a href="#" class="paginacao__numeroPagina">...</a>
+        </div>
+        <section class="novoAtendimento">
+            <a href="#" class="novoAtendimento__texto"><img src="/img/plus_icon.svg" class="novoAtendimento__adicionar">Novo Atendimento</a>
+        </section>
+    </main>
+</body>
+</html>

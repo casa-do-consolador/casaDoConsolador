@@ -1,10 +1,25 @@
 :root {
     --azul_claro: #57c4f1;
+    --azul: #02399e;
     --laranja: #f9b232;
     --rosa: #dc3770;
     --marrom: #96714e;
     --roxo: #632e88;
-    --verde_claro: #a9cf71;
+    --verde-claro: #a9cf71;
+    --preto: #212121;
+    --branco: #FFFFFF;
+    
+    /* botões */
+    --baby_blue: rgb(106, 185, 238);
+    --cinza: #808080;
 
     --overpass_regular: 'Overpass', sans-serif;
+}
+
+/* Classe Container - aplicação na tag main */
+
+.container{
+    width: 100%;
+    height: 100vh;
+    color: gr;
 }
