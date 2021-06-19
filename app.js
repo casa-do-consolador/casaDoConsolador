@@ -3,10 +3,12 @@ const express = require('express');
 const path = require('path');
 const cookieParser = require('cookie-parser');
 const logger = require('morgan');
+const session = require('express-session');
 
 const loginRouter = require('./routes/login');
 const adminRouter = require('./routes/dashAdmin');
 const homeListaRouter = require('./routes/voluntarioRoutes');
+const novoAtendimento = require('./routes/novoAtendimento');
 
 const app = express();
 
@@ -23,6 +25,16 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', loginRouter);
 app.use('/', adminRouter);
 app.use('/lista_vol', homeListaRouter);
+app.use('/', novoAtendimento);
+
+app.use(session({
+	secret: 'casaDoConsolador',
+
+	resave: false,
+
+	saveUninitialized: true, 
+
+}));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
