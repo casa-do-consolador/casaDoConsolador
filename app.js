@@ -24,7 +24,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', loginRouter);
 app.use('/', adminRouter);
-app.use('/lista_vol', homeListaRouter);
+app.use('/home_voluntario', homeListaRouter);
 app.use('/', novoAtendimento);
 
 app.use(session({
