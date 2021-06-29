@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/home_lista.css">
     <link rel="stylesheet" href="/css/novoAtendimento.css">
-    <title>Casa do Consolador</title>
+    <title><%= title %></title>
 </head>
 <body>
     <nav class="navbar" role="navigation" aria-label="main navigation">
@@ -29,8 +29,8 @@
     </nav>
     <main class="main-container">
         <section class="hero">
-            <img src="/img/back_arrow.svg" class="hero__backBtn">
-            <h1 class="hero__titulo">Cadastrar Atendimento</h1>
+           <a href="/home_voluntario"><img src="/img/back_arrow.svg" class="hero__backBtn"></a>
+            <h1 class="hero__titulo">Cadastrar Atendimento</h1>   
         </section>
         <section class="formulario">
             <form action="#" mehotd="POST" class="formulario__cadastroAtendimento">

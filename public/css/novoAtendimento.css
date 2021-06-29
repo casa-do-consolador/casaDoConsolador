@@ -1,3 +1,19 @@
+.hero{
+    display: flex;
+}
+
 .hero__backBtn{
-    height: 20px;
+    height: 24px;
+    align-self: flex-start;
+}
+
+.hero__titulo{
+    align-self: center;
+
+    position: relative;
+    bottom: 33px;
+
+    color: var(--preto);
+    font-weight: 700;
+    font-size: 1.3rem;
 }
