@@ -1,6 +1,4 @@
 /* Botão Detalhes - lista de atendimento */
-
-
 .dashboard {
     width: 350px;
     border: gray 1px solid;
@@ -22,7 +20,7 @@
 }
 
 /* rota deste botão: /home_voluntario */
-.lista__atendimento--botao{
+.lista__atendimento--botao, .formulario__botao--submit{
     background: var(--baby_blue);
     border: none;
     border-radius: 3px;
@@ -38,4 +36,11 @@
     right: 20px;
 
     height: 40px;
+}
+
+/* rota deste botão: /novoAtendimento */
+.formulario__botao--submit{
+    position:initial;
+    right: 0;
+    bottom: 0;
 }
