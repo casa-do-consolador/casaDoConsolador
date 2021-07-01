@@ -34,22 +34,23 @@
         </section>
         <section class="formulario">
             <form action="#" mehotd="POST" class="formulario__cadastroAtendimento">
-                <label for="nome" class="formulario__labelNome">Nome</label>
-                <input type="text" name="nome" class="formulario__inputNome" placeholder="Insira nome" required>
-
-                <label for="telefone" class="formulario__labelTelefone">Telefone</label>
-                <input type="tel" name="telefone" class="formulario__inputTelefone" placeholder="(99) 99999-9999" required>
-
-                <label for="cpf" class="formulario__labelCpf">CPF</label>
-                <input type="text" name="cpf" class="formulario__inputCPF" placeholder="XXX.XXX.XXX-XX" required>
-
-                <label for="dataNascimento" class="formulario__labelDataNascimento">Data de Nascimento</label>
-                <input type="text" name="dataNascimento" class="formulario__inputDataNascimento" placeholder="DD-MM-AAAA" required>
-
-                <div class="formulario__sessaoFilhos">
+                <div class="formulario__cadastroAtendimento--dadosPessoais">
+                    <label for="nome" class="formulario__labelNome">Nome</label>
+                    <input type="text" name="nome" class="formulario__inputNome" placeholder="Insira nome" required>
+    
+                    <label for="telefone" class="formulario__labelTelefone">Telefone</label>
+                    <input type="tel" name="telefone" class="formulario__inputTelefone" placeholder="(99) 99999-9999" required>
+    
+                    <label for="cpf" class="formulario__labelCpf">CPF</label>
+                    <input type="text" name="cpf" class="formulario__inputCPF" placeholder="XXX.XXX.XXX-XX" required>
+    
+                    <label for="dataNascimento" class="formulario__labelDataNascimento">Data de Nascimento</label>
+                    <input type="text" name="dataNascimento" class="formulario__inputDataNascimento" placeholder="DD-MM-AAAA" required>
+                </div>
+                <div class="formulario__cadastroAtendimento--sessaoFilhos">
                     <label for="filhos" class="formulario__filhos">Filhos? Se sim, quantos?</label>
 
-                    <fieldset class="formulario__radioSection" required >
+                    <fieldset class="formulario__cadastroAtendimento--radioSection" required >
                         <input type="radio" id="sim" name="filhos" value="sim">
                             <label for="sim">Sim</label>
                         <input type="radio" id="nao" name="filhos" value="nao">
@@ -101,7 +102,7 @@
                     <textarea name="observacoes" rows="10" placeholder="Escreva o texto aqui"></textarea>
                 </fieldset>
 
-                <input type="submit" value="Finalizar Cadastro">
+                <input type="submit" class="formulario__botao--submit" value="Finalizar Cadastro">
             </form>
         </section>
     </main>

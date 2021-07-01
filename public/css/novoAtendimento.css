@@ -1,3 +1,6 @@
+
+/*início do header do formulário */
+
 .hero{
     display: flex;
 }
@@ -16,4 +19,11 @@
     color: var(--preto);
     font-weight: 700;
     font-size: 1.3rem;
+}
+
+/* fim do header do formulário */
+
+.formulario__cadastroAtendimento{
+    display: flex;
+    flex-direction: column;
 }
