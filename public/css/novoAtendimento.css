@@ -23,7 +23,51 @@
 
 /* fim do header do formulário */
 
-.formulario__cadastroAtendimento{
+.formulario{
+    color: var(--preto);
+    font-family: var(--overpass_regular);
+}
+.formulario__cadastroAtendimento--dadosPessoais{
     display: flex;
     flex-direction: column;
+
+    line-height: 30%;
+}
+
+.formulario__inputNome, .formulario__inputTelefone, .formulario__inputCPF, .formulario__inputDataNascimento{
+    width: 45%;
+    line-height: 30px;
+}
+
+.formulario__labelNome, .formulario__labelCpf{
+    margin-bottom: 10px;
+}
+
+.formulario__inputTelefone, .formulario__labelTelefone, .formulario__inputDataNascimento, .formulario__labelDataNascimento{
+    align-self: flex-end;
+
+    position: relative;
+    bottom: 49px;
+
+    margin-bottom: 10px;
+}
+
+.formulario__labelTelefone{
+    right: 102px;
+}
+
+.formulario__labelDataNascimento{
+    right: 25px;
+}
+
+.formulario__cadastroAtendimento--sessaoFilhos{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario__selectSection{
+    align-self: center;
+    position: relative;
+    bottom: 21px;
+    right: 56px;
 }
